@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://d22hdac5qn2dw"]
+
+[ext_resource type="Script" uid="uid://df4ja4rjijc2t" path="res://scripts/node_2d.gd" id="1_ntf54"]
+[ext_resource type="Texture2D" uid="uid://byt8ul5puh5ro" path="res://sprites/colour-circle-removebg-preview.png" id="2_odaxf"]
+[ext_resource type="Texture2D" uid="uid://baqxdkj0vsooq" path="res://sprites/dark-background-abstract-with-light-effect-vector-removebg-preview.png" id="3_rpo2c"]
+
+[node name="dev_Ambar" type="Node2D" unique_id=1510549102]
+script = ExtResource("1_ntf54")
+
+[node name="Circle" type="Sprite2D" parent="." unique_id=93630298]
+light_mask = 2
+visibility_layer = 3
+z_index = 1
+position = Vector2(560, 328)
+texture = ExtResource("2_odaxf")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=994395430]
+position = Vector2(578.12494, 325.375)
+scale = Vector2(1.6290666, 1.8505666)
+texture = ExtResource("3_rpo2c")
