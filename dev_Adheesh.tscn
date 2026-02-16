@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://j3as876o5ohy"]
+
+[ext_resource type="Script" uid="uid://4xd3g64sntd6" path="res://dev_adheesh.gd" id="1_1k1ii"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_11v3i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ilb3l"]
+size = Vector2(50, 50)
+
+[node name="Node2D" type="CharacterBody2D" unique_id=1567862472]
+position = Vector2(363, 158)
+script = ExtResource("1_1k1ii")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1325186553]
+modulate = Color(0, 1, 1, 1)
+scale = Vector2(50, 50)
+texture = SubResource("PlaceholderTexture2D_11v3i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=66717970]
+shape = SubResource("RectangleShape2D_ilb3l")
